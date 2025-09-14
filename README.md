@@ -1,4 +1,4 @@
-# Sistema de Carrinho de Compras 🛒
+# Sistema de Carrinho de Compras 
 
 Projeto feito em **PHP** para treinar os princípios **KISS (Keep It Simple, Stupid)** e **DRY (Don't Repeat Yourself)**.  
 A ideia foi construir um sistema simples de carrinho de compras, mas já aplicando boas práticas de organização do código.
@@ -67,3 +67,4 @@ print_r($cart->getProducts());
 // Total da compra
 echo "Total: R$ " . $cart->getTotal();
 ```
+
