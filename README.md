@@ -35,7 +35,7 @@ C:\xampp\htdocs\Sistema-carrinho-de-compra-PHP-main\
 
 ## Objetivos do Projeto
 
-- Praticar a aplicação dos princípios **KISS** e **DRY** no código
+- Praticar a aplicação dos princípios **KISS**, **DRY** e **PSR-12** no código
 - Criar um exemplo funcional de carrinho de compras em PHP
 - Organizar o projeto de forma clara e reutilizável
 
@@ -95,6 +95,7 @@ echo "<h3>Caso 4: Aplicar cupom de desconto</h3>";
 $cart->listCart();
 $cart->calculateTotal(true);
 ```
+
 
 
 
