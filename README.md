@@ -2,9 +2,24 @@
 
 Projeto feito em **PHP** para treinar os princípios **KISS (Keep It Simple, Stupid)** e **DRY (Don't Repeat Yourself)**.  
 A ideia foi construir um sistema simples de carrinho de compras, mas já aplicando boas práticas de organização do código.
-
+---
+# Participantes
+- Gabriel Fante Javarotti  (RA: 1990554)
+- João Pedro Pereira Guerra  (RA:2006484)
 ---
 
+## Estrutura de Pastas
+
+```bash
+C:\xampp\htdocs\Sistema-carrinho-de-compra-PHP-main\
+│
+├── Cart.php        # Lógica do carrinho de compras
+├── index.php       # Página inicial
+├── Product.php     # Classe/controle de produtos
+└── README.md       # Documentação do projeto
+```
+
+---
 ## Funcionalidades Aplicadas
 
 - Adicionar produtos ao carrinho
@@ -75,5 +90,6 @@ echo "<h3>Caso 4: Aplicar cupom de desconto</h3>";
 $cart->listCart();
 $cart->calculateTotal(true);
 ```
+
 
 
