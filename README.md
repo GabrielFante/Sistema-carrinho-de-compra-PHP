@@ -15,7 +15,7 @@ C:\xampp\htdocs\Sistema-carrinho-de-compra-PHP-main\
 │
 ├── Cart.php        # Lógica do carrinho de compras
 ├── index.php       # Página inicial
-├── Product.php     # Classe/controle de produtos
+├── Product.php     # Classe Produto
 └── README.md       # Documentação do projeto
 ```
 
@@ -90,6 +90,7 @@ echo "<h3>Caso 4: Aplicar cupom de desconto</h3>";
 $cart->listCart();
 $cart->calculateTotal(true);
 ```
+
 
 
 
