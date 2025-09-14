@@ -2,10 +2,13 @@
 
 Projeto feito em **PHP** para treinar os princípios **KISS (Keep It Simple, Stupid)** e **DRY (Don't Repeat Yourself)**.  
 A ideia foi construir um sistema simples de carrinho de compras, mas já aplicando boas práticas de organização do código.
+
 ---
+
 # Participantes
 - Gabriel Fante Javarotti  (RA: 1990554)
 - João Pedro Pereira Guerra  (RA:2006484)
+
 ---
 
 ## Estrutura de Pastas
@@ -26,7 +29,8 @@ C:\xampp\htdocs\Sistema-carrinho-de-compra-PHP-main\
 - Remover produtos do carrinho
 - Listar produtos que estão no carrinho
 - Calcular o total da compra
-
+- Aplicar desconto
+  
 ---
 
 ## Objetivos do Projeto
@@ -40,14 +44,15 @@ C:\xampp\htdocs\Sistema-carrinho-de-compra-PHP-main\
 ## Tecnologias Utilizadas
 
 - PHP 8+
-
+- XAMPP Control Panel
 ---
 
 ## Como rodar o projeto
 
 1. Clone o repositório
-2. Coloque os arquivos em um servidor local(XAMPP)
-3. Abra no navegador: `http://127.0.0.1/Sistema-carrinho-de-compra-PHP-main/index.php`
+2. Abra o armazenamento local -> xampp -> htdocs
+3. Cole o clone do repositório dentro do htdocs
+4. Abra no navegador: `http://127.0.0.1/Sistema-carrinho-de-compra-PHP-main/index.php`
 
 ---
 
@@ -90,6 +95,7 @@ echo "<h3>Caso 4: Aplicar cupom de desconto</h3>";
 $cart->listCart();
 $cart->calculateTotal(true);
 ```
+
 
 
 
